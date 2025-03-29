@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mondrian Project</title>
+</head>
+<style>
+/*
+bluish color: #FAD0C4
+white: #FFF7F3
+yellow: #E6B2BA
+dark blue: #DE7C7D
+red: D76C82
+black:#B03052
+*/
+
+    body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    padding:0;
+    margin:0;
+    }
+
+    .background {
+    height:690px;
+    width:899px;
+    background-color: #000;
+    display: grid;
+    grid-template-rows: 69px 165px 167px 74px 86px 45px 23px;
+    grid-template-columns: 57px 77px 72px 143px 88px 88px 78px 72px 43px 92px 13px 13px;
+    gap:7.8px;
+    border: 25px ridge #4A3333;
+    }
+
+
+    .box-1 {
+    display: grid;
+    grid-area: 1/1/2/3;
+    background-color: #ECDFCC;
+    }
+
+    .box-13 {
+    display: grid;
+    grid-area: 3/1/5/2;
+    background-color: #ECDFCC;
+    }
+
+    .box-9 {
+    display: grid;
+    grid-area: 2/7/3/8;
+    background-color: #ECDFCC;
+    }
+
+    .box-8 {
+    display: grid;
+    grid-area: 2/8/3/9;
+    background-color: #ECDFCC;
+    }
+
+    .box-25 {
+    display: grid;
+    grid-area: 4/7/5/9;
+    background-color: #ECDFCC;
+    }
+
+    .box-17 {
+    display: grid;
+    grid-area: 4/4/5/5;
+    background-color: #ECDFCC;
+    }
+
+    .box-18 {
+    display: grid;
+    grid-area: 5/4/6/5;
+    background-color: #ECDFCC;
+    }
+
+
+
+
+
+
+    .box-2 {
+    display: grid;
+    grid-area: 1/3/2/5;
+    background-color: #FCFAEE;
+    }
+
+    .box-4 {
+    display:grid;
+    grid-area: 1/7/2/8;
+    background-color:#FCFAEE;
+    }
+
+    .box-12 {
+    display: grid;
+    grid-area: 2/1/3/2;
+    background-color: #FCFAEE;
+    }
+
+    .box-22 {
+    display: grid;
+    grid-area: 3/5/4/6;
+    background-color: #FCFAEE;
+    }
+
+    .box-23 {
+    display: grid;
+    grid-area: 3/6/4/7 ;
+    background-color:#FCFAEE;
+    }
+
+    .box-24 {
+    display: grid;
+    grid-area: 4/5/5/7 ;
+    background-color: #FCFAEE;
+    }
+
+    .box-16 {
+    display: grid;
+    grid-area: 6/2/9/4;
+    background-color:#FCFAEE;
+    }
+
+   .box-28 {
+    display: grid;
+    grid-area: 4/9/5/12;
+    background-color: #FCFAEE;
+    }
+
+   .box-6 {
+    display:grid;
+    grid-area:1/10/3/12;
+    background-color: #FCFAEE;
+    }
+
+   .box-27 {
+    display: grid;
+    grid-area: 3/9/4/12 ;
+    background-color: #FCFAEE;
+    }
+
+    .box-20 {
+    display: grid;
+    grid-area: 8/4/9/7;
+    background-color: #FCFAEE;
+    }
+
+
+
+
+
+
+    .box-3 {
+    display: grid;
+    grid-area: 1/5/2/7 ;
+    background-color: #F39E60;
+    }
+
+    .box-10 {
+    display: grid;
+    grid-area: 2/5/3/7;
+    background-color: #F39E60;
+    }
+
+    .box-14 {
+    display: grid;
+    grid-area: 5/1/9/2;
+    background-color: #F39E60;
+    }
+
+    .box-30 {
+    display:grid ;
+    grid-area:5/11/9/12 ;
+    background-color: #F39E60;
+    }
+
+
+
+
+    .box-5 {
+    display:grid;
+    grid-area: 1/8/2/10;
+    background-color: #9F5255;
+    }
+
+    .box-21 {
+    display: grid ;
+    grid-area: 5/5/8/7;
+    background-color: #9F5255;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .box-11 {
+    display:grid;
+    grid-area: 2/2/4/5;
+    background-color: #E16A54;
+    }
+
+    .box-29 {
+    display: grid;
+    grid-area: 5/7/9/11;
+    background-color: #E16A54;
+    }
+
+
+
+
+    .box-7 {
+    display: grid ;
+    grid-area: 2/9/3/10;
+    background-color: #7C444F;
+    }
+
+    .box-26 {
+    display: grid;
+    grid-area: 3/7/4/9 ;
+    background-color: #7C444F;
+    }
+
+    .box-15 {
+    display: grid;
+    grid-area: 4/2/6/4 ;
+    background-color: #7C444F;
+    }
+
+     .box-19 {
+    display: grid;
+    grid-area: 6/4/8/5 ;
+    background-color: #7C444F;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<body>
+<div class="background">
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+    <div class="box-3"></div>
+    <div class="box-4"></div>
+    <div class="box-5"></div>
+    <div class="box-6"></div>
+    <div class="box-7"></div>
+    <div class="box-8"></div>
+    <div class="box-9"></div>
+    <div class="box-10"></div>
+    <div class="box-11"></div>
+    <div class="box-12"></div>
+    <div class="box-13"></div>
+    <div class="box-14"></div>
+    <div class="box-15"></div>
+    <div class="box-16"></div>
+    <div class="box-17"></div>
+    <div class="box-18"></div>
+    <div class="box-19"></div>
+    <div class="box-20"></div>
+    <div class="box-21"></div>
+    <div class="box-22"></div>
+    <div class="box-23"></div>
+    <div class="box-24"></div>
+    <div class="box-25"></div>
+    <div class="box-26"></div>
+    <div class="box-27"></div>
+    <div class="box-28"></div>
+    <div class="box-29"></div>
+    <div class="box-30"></div>
+    <div class="box-31"></div>
+</div>
+</body>
+</html>
